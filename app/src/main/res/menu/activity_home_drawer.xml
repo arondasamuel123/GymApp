@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_workout"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Add Workout" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gym Locations" />
+        <item
+            android:id="@+id/nav_workouts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Past Workouts" />
+        <item
+            android:id="@+id/nav_instructor"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Gym Instructor" />
+        <item
+            android:title="User Profile"
+            android:id="@+id/nav_profile"
+            />
+    </group>
+
+
+</menu>
